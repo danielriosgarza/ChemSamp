@@ -1,0 +1,117 @@
+ID	Name	Aliases	reactants	products
+rbh0001_a	phosphoenolpyruvate:protein-L-histidine Npi-phosphotransferase	EC 2.7.3.9  	"cpd00061:1,c00615:1,ebh0001_a:1"	ebh0001_b:1
+rbh0001_b	phosphoenolpyruvate:protein-L-histidine Npi-phosphotransferase	EC 2.7.3.9  	ebh0001_b:1	"cpd00061:1,c00615:1,ebh0001_a:1"
+rbh0001_c	phosphoenolpyruvate:protein-L-histidine Npi-phosphotransferase	EC 2.7.3.9  	ebh0001_b:1	"cpd00020:1,c04261:1,ebh0001_a:1"
+rbh0001_d	phosphoenolpyruvate:protein-L-histidine Npi-phosphotransferase	EC 2.7.3.9  	"cpd00020:1,c04261:1,ebh0001_a:1"	ebh0001_b:1
+rbh0002_a	phosphocarrier protein HPr		"c04261:1, cbh0001:1, ebh0002_a:1"	ebh0002_b:1
+rbh0002_b	phosphocarrier protein HPr		ebh0002_b:1	"c00615:1,cbh0002:1, ebh0002_a:1"
+rbh0003_a	Fructose-specific PTS (fruA)	EC 2.7.1.202	"cpd00082:1,ebh0003_a:1, cbh0002:1"	ebh0003_b:1
+rbh0003_b	Fructose-specific PTS (fruA)	EC 2.7.1.202	ebh0003_b:1	"cpd00802:1,ebh0003_a:1, cbh0001:1"
+rbh0004_a	Trehalose-specific PTS (treB)	EC 2.7.1.201	"cpd00794:1, cbh0002:1, ebh0004_a:1"	ebh0004_b:1
+rbh0004_b	Trehalose-specific PTS (treB)	EC 2.7.1.201	ebh0004_b:1	"cpd00523:1, cbh0001:1, ebh0004_a:1"
+rbh0005_a	Trehalose-6-phosphate hydrolase	EC 3.2.1.93 	"cpd00523:1, cpd00001:1, ebh0005_a:1"	ebh0005_b:1
+rbh0005_b	Trehalose-6-phosphate hydrolase	EC 3.2.1.93 	ebh0005_b:1	"cpd00523:1, cpd00001:1, ebh0005_a:1"
+rbh0005_c	Trehalose-6-phosphate hydrolase	EC 3.2.1.93 	ebh0005_b:1	"cpd00079:1,cpd00027:1,ebh0005_a:1"
+rbh0005_d	Trehalose-6-phosphate hydrolase	EC 3.2.1.93 	"cpd00079:1,cpd00027:1,ebh0005_a:1"	ebh0005_b:1
+rbh0006_a	Glucokinase	EC 2.7.1.2	"cpd00027:1,cpd00002:1, ebh0006_a:1"	ebh0006_b:1
+rbh0006_b	Glucokinase	EC 2.7.1.2	ebh0006_b:1	"cpd00079:1,cpd00008:1,ebh0006_a:1, cpd00067:1"
+rbh0007_a	Glucose-6-phosphate isomerase	EC 5.3.1.9	"cpd00079:1,ebh0007_a:1"	ebh0007_b:1
+rbh0007_b	Glucose-6-phosphate isomerase	EC 5.3.1.9	ebh0007_b:1	"cpd00079:1,ebh0007_a:1"
+rbh0007_c	Glucose-6-phosphate isomerase	EC 5.3.1.9	ebh0007_b:1	"cpd00072:1,ebh0007_a:1"
+rbh0007_d	Glucose-6-phosphate isomerase	EC 5.3.1.9	"cpd00072:1,ebh0007_a:1"	ebh0007_b:1
+rbh0008_a	ATP-dependent 6-phosphofructokinase	EC 2.7.1.11	"cpd00072:1,cpd00002:1,ebh0008_a:1"	ebh0008_b:1
+rbh0008_b	ATP-dependent 6-phosphofructokinase	EC 2.7.1.11	ebh0008_b:1	"cpd00290:1,cpd00067:1,cpd00008:1,ebh0008_a:1"
+rbh0009_a	Pyrophosphate-fructose 6-phosphate 1-phosphotransferase	EC 2.7.1.90 	"cpd00012:1,cpd00072:1,ebh0009_a:1"	ebh0009_b:1
+rbh0009_b	Pyrophosphate-fructose 6-phosphate 1-phosphotransferase	EC 2.7.1.90 	ebh0009_b:1	"cpd00012:1,cpd00072:1,ebh0009_a:1"
+rbh0009_c	Pyrophosphate-fructose 6-phosphate 1-phosphotransferase	EC 2.7.1.90 	ebh0009_b:1	"cpd00009:1,cpd00290:1,cpd00067:1,ebh0009_a:1"
+rbh0009_d	Pyrophosphate-fructose 6-phosphate 1-phosphotransferase	EC 2.7.1.90 	"cpd00009:1,cpd00290:1,cpd00067:1,ebh0009_a:1"	ebh0009_b:1
+rbh0010_a	Fructose 1-phosphate kinase	EC 2.7.1.56	"cpd00002:1,cpd00802:1,ebh0010_a:1"	ebh0010_b:1
+rbh0010_b	Fructose 1-phosphate kinase	EC 2.7.1.56	ebh0010_b:1	"cpd00008:1,cpd00290:1,ebh0010_a:1,cpd00067:1"
+rbh0011_a	Fructose-bisphosphate aldolase	EC 4.1.2.13	"cpd00290:1,ebh0011_a:1"	ebh0011_b:1
+rbh0011_b	Fructose-bisphosphate aldolase	EC 4.1.2.13	ebh0011_b:1	"cpd00290:1,ebh0011_a:1"
+rbh0011_c	Fructose-bisphosphate aldolase	EC 4.1.2.13	ebh0011_b:1	"cpd00095:1,cpd00102:1,ebh0011_a:1"
+rbh0011_d	Fructose-bisphosphate aldolase	EC 4.1.2.13	"cpd00095:1,cpd00102:1,ebh0011_a:1"	ebh0011_b:1
+rbh0012_a	D-glyceraldehyde-3-phosphate aldose-ketose-isomerase	EC 5.3.1.1 	"cpd00095:1,ebh0012_a:1"	ebh0012_b:1
+rbh0012_b	D-glyceraldehyde-3-phosphate aldose-ketose-isomerase	EC 5.3.1.1 	ebh0012_b:1	"cpd00095:1,ebh0012_a:1"
+rbh0012_c	D-glyceraldehyde-3-phosphate aldose-ketose-isomerase	EC 5.3.1.1 	ebh0012_b:1	"cpd00102:1,ebh0012_a:1"
+rbh0012_d	D-glyceraldehyde-3-phosphate aldose-ketose-isomerase	EC 5.3.1.1 	"cpd00102:1,ebh0012_a:1"	ebh0012_b:1
+rbh0013_a	Glyceraldehyde 3-phosphate dehydrogenase	EC 1.2.1.12	"cpd00102:1,cpd00009:1,cpd00003:1,ebh0013_a:1"	ebh0013_b:1
+rbh0013_b	Glyceraldehyde 3-phosphate dehydrogenase	EC 1.2.1.12	ebh0013_b:1	"cpd00102:1,cpd00009:1,cpd00003:1,ebh0013_a:1"
+rbh0013_c	Glyceraldehyde 3-phosphate dehydrogenase	EC 1.2.1.12	ebh0013_b:1	"cpd00203:1,cpd00004:1,cpd00067:1,ebh0013_a:1"
+rbh0013_d	Glyceraldehyde 3-phosphate dehydrogenase	EC 1.2.1.12	"cpd00203:1,cpd00004:1,cpd00067:1,ebh0013_a:1"	ebh0013_b:1
+rbh0014_a	phosphoglycerate kinase	EC 2.7.2.3 	"cpd00203:1,cpd00008:1,ebh0014_a:1"	ebh0014_b:1
+rbh0014_b	phosphoglycerate kinase	EC 2.7.2.3 	ebh0014_b:1	"cpd00203:1,cpd00008:1,ebh0014_a:1"
+rbh0014_c	phosphoglycerate kinase	EC 2.7.2.3 	ebh0014_b:1	"cpd00169:1,cpd00002:1,ebh0014_a:1"
+rbh0014_d	phosphoglycerate kinase	EC 2.7.2.3 	"cpd00169:1,cpd00002:1,ebh0014_a:1"	ebh0014_b:1
+rbh0015_a	"phosphoglycerate mutase (2,3-diphosphoglycerate-independent)"	EC 5.4.2.12	"cpd00169:1,ebh0015_a:1"	ebh0015_b:1
+rbh0015_b	"phosphoglycerate mutase (2,3-diphosphoglycerate-independent)"	EC 5.4.2.12	ebh0015_b:1	"cpd00169:1,ebh0015_a:1"
+rbh0015_c	"phosphoglycerate mutase (2,3-diphosphoglycerate-independent)"	EC 5.4.2.12	ebh0015_b:1	"cpd00482:1,ebh0015_a:1"
+rbh0015_d	"phosphoglycerate mutase (2,3-diphosphoglycerate-independent)"	EC 5.4.2.12	"cpd00482:1,ebh0015_a:1"	ebh0015_b:1
+rbh0016_a	Phosphopyruvate hydratase	EC 4.2.1.11 	"cpd00482:1,ebh0016_a:1"	ebh0016_b:1
+rbh0016_b	Phosphopyruvate hydratase	EC 4.2.1.11 	ebh0016_b:1	"cpd00482:1,ebh0016_a:1"
+rbh0016_c	Phosphopyruvate hydratase	EC 4.2.1.11 	ebh0016_b:1	"cpd00061:1,cpd00001:1,ebh0016_a:1"
+rbh0016_d	Phosphopyruvate hydratase	EC 4.2.1.11 	"cpd00061:1,cpd00001:1,ebh0016_a:1"	ebh0016_b:1
+rbh0017_a	pyruvate kinase I	EC 2.7.1.40 	"cpd00061:1,cpd00008:1,ebh0017_a:1"	ebh0017_b:1
+rbh0017_b	pyruvate kinase I	EC 2.7.1.40 	ebh0017_b:1	"cpd00002:1,cpd00020:1,ebh0017_a:1"
+rbh0018_a	Lactate dehydrogenase	EC 1.3.1.110 	"cpd00020:1,cpd11621:2,cpd00004:2,ebh0018_a:1"	ebh0018_b:1
+rbh0018_b	Lactate dehydrogenase	EC 1.3.1.110 	ebh0018_b:1	"cpd00020:1,cpd11621:2,cpd00004:2,ebh0018_a:1"
+rbh0018_c	Lactate dehydrogenase	EC 1.3.1.110 	ebh0018_b:1	"cpd01022:1,cpd11620:2,cpd00003:2,ebh0018_a:1"
+rbh0018_d	Lactate dehydrogenase	EC 1.3.1.110 	"cpd01022:1,cpd11620:2,cpd00003:2,ebh0018_a:1"	ebh0018_b:1
+rbh0019_a	pyruvate-ferredoxin/flavodoxin oxidoreductase	EC 1.2.7.1	"cpd00020:1,cpd00010:1,cpd11621:2,ebh0019_a:1"	ebh0019_b:1
+rbh0019_b	pyruvate-ferredoxin/flavodoxin oxidoreductase	EC 1.2.7.1	ebh0019_b:1	"cpd00020:1,cpd00010:1,cpd11621:2,ebh0019_a:1"
+rbh0019_c	pyruvate-ferredoxin/flavodoxin oxidoreductase	EC 1.2.7.1	ebh0019_b:1	"cpd00011:1,cpd00022:1,cpd11620:2,ebh0019_a:1"
+rbh0019_d	pyruvate-ferredoxin/flavodoxin oxidoreductase	EC 1.2.7.1	"cpd00011:1,cpd00022:1,cpd11620:2,ebh0019_a:1"	ebh0019_b:1
+rbh0020_a	"ATP:pyruvate,phosphate phosphotransferase"	EC 2.7.9.1	"cpd00020:1,cpd00002:2,cpd00001:1,ebh0020_a:1"	ebh0020_b:1
+rbh0020_b	"ATP:pyruvate,phosphate phosphotransferase"	EC 2.7.9.1	ebh0020_b:1	"cpd00061:1,cpd00008:2,cpd00009:1,cpd00067:2,ebh0020_a:1"
+rbh0021_a	Hydrogenase	EC 1.17.1.11 	"cpd11620:2,cpd00004:1,cpd00067:3,ebh0021_a:1"	ebh0021_b:1
+rbh0021_b	Hydrogenase	EC 1.17.1.11 	ebh0021_b:1	"cpd11620:2,cpd00004:1,cpd00067:3,ebh0021_a:1"
+rbh0021_c	Hydrogenase	EC 1.17.1.11 	ebh0021_b:1	"cpd11621:2,cpd00003:1,cpd11640:2,ebh0021_a:1"
+rbh0021_d	Hydrogenase	EC 1.17.1.11 	"cpd00022:4,cpd00002:5,ebh0022_a:1"	ebh0021_b:1
+rbh0022_a	Biomass Production		"cpd00022:10,cpd00002:5,cpd00004:6,cpd00067:6,ebh0022_a:1"	ebh0022_b:1
+rbh0022_b	Biomass Production		ebh0022_b:1	"cbh0003:1, cpd00010:10, cpd00008:5, ebh0022_a:1"
+rbh0023_a	Formate dehydrogenase		"cpd00011:2,cpd11620:2,cpd00004:1,cpd00067:1,ebh0023_a:1"	ebh0023_b:1
+rbh0023_b	Formate dehydrogenase		ebh0023_b:1	"cpd00011:2,cpd11620:2,cpd00004:1,cpd00067:1,ebh0023_a:1"
+rbh0023_c	Formate dehydrogenase		ebh0023_b:1	"cpd00047:2,cpd11621:2,cpd00003:1,ebh0023_a:1"
+rbh0023_d	Formate dehydrogenase		"cpd00047:2,cpd11621:2,cpd00003:1,ebh0023_a:1"	ebh0023_b:1
+rbh0024_a	formate dehydrogenase (NADP+)	EC 1.17.1.10	"cpd00047:1,cpd00006:1,ebh0024_a:1"	ebh0024_b:1
+rbh0024_b	formate dehydrogenase (NADP+)	EC 1.17.1.10	ebh0024_b:1	"cpd00047:1,cpd00006:1,ebh0024_a:1"
+rbh0024_c	formate dehydrogenase (NADP+)	EC 1.17.1.10	ebh0024_b:1	"cpd00011:1,cpd00005:1,ebh0024_a:1"
+rbh0024_d	formate dehydrogenase (NADP+)	EC 1.17.1.10	"cpd00011:1,cpd00005:1,ebh0024_a:1"	ebh0024_b:1
+rbh0025_a	formate--tetrahydrofolate ligase	EC 6.3.4.3	"cpd00087:1,cpd00002:1,cpd00047:1,ebh0025_a:1"	ebh0025_b:1
+rbh0025_b	formate--tetrahydrofolate ligase	EC 6.3.4.3	ebh0025_b:1	"cpd00201:1,cpd00008:1,cpd00009:1,ebh0025_a:1"
+rbh0026_a	methylenetetrahydrofolate dehydrogenase (NADP+) / methenyltetrahydrofolate cyclohydrolase	EC 1.5.1.5 / EC 3.5.4.9	"cpd00201:1,cpd00067:1,cpd00005:1,ebh0026_a:1"	ebh0026_b:1
+rbh0026_b	methylenetetrahydrofolate dehydrogenase (NADP+) / methenyltetrahydrofolate cyclohydrolase	EC 1.5.1.5 / EC 3.5.4.9	ebh0026_b:1	"cpd00347:1,cpd00001:1,cpd00006:1,ebh0026_a:1"
+rbh0027_a	Methylenetetrahydrofolate reductase	EC 1.5.1.20	"cpd00347:1,cpd00004:1,cpd00067:1,ebh0027_a:1"	ebh0027_b:1
+rbh0027_b	Methylenetetrahydrofolate reductase	EC 1.5.1.20	ebh0027_b:1	"cpd00345:1,cpd00003:1,ebh0027_a:1"
+rbh0028_a	5-methyltetrahydrofolate---corrinoid/iron-sulfur protein Co-methyltransferase	EC 2.1.1.258	"cpd00345:1,cpd12810:1,cpd00067:1,ebh0028_a:1"	ebh0028_b:1
+rbh0028_b	5-methyltetrahydrofolate---corrinoid/iron-sulfur protein Co-methyltransferase	EC 2.1.1.258	ebh0028_b:1	"cpd12809:1,cpd00087:1,ebh0028_a:1"
+rbh0029_a	CODH/ACS complex		"cpd00011:1,cpd11620:2,cpd00067:1,cpd12809:1,cpd00010:1,ebh0029_a:1"	ebh0029_b:1
+rbh0029_b	CODH/ACS complex		ebh0029_b:1	"cpd11621:2,cpd00001:1,cpd12810:1,cpd00022:1,ebh0029_a:1"
+rbh0030_a	Phosphate acetyltransferase	EC 2.3.1.8	"cpd00022:1,cpd00009:1,ebh0030_a:1"	ebh0030_b:1
+rbh0030_b	Phosphate acetyltransferase	EC 2.3.1.8	ebh0030_b:1	"cpd00010:1,cpd00196:1,ebh0030_a:1"
+rbh0031_a	Acetate kinase	EC 2.7.2.1	"cpd00196:1,cpd00008:1,ebh0031_a:1"	ebh0031_b:1
+rbh0031_b	Acetate kinase	EC 2.7.2.1	ebh0031_b:1	"cpd00029:1,cpd00002:1,ebh0031_a:1"
+rbh0032_a	Na/H+ - translocating ferredoxin: NAD+ oxidoreductase complex		"cpd11620:2,cpd00003:1,cpd00067:3,ebh0032_a:1"	ebh0032_b:1
+rbh0032_b	Na/H+ - translocating ferredoxin: NAD+ oxidoreductase complex		ebh0032_b:1	"cpd11620:2,cpd00003:1,cpd00067:3,ebh0032_a:1"
+rbh0032_c	Na/H+ - translocating ferredoxin: NAD+ oxidoreductase complex		ebh0032_b:1	"cpd11621:2,cpd00004:1,cpd00067_e:2,ebh0032_a:1"
+rbh0032_d	Na/H+ - translocating ferredoxin: NAD+ oxidoreductase complex		"cpd11621:2,cpd00004:1,cpd00067_e:2,ebh0032_a:1"	ebh0032_b:1
+rbh0033_a	NA+/H+ dependent ATP synthase		"cpd00008:1,cpd00067_e:5,cpd00009:1,ebh0033_a:1"	ebh0033_b:1
+rbh0033_b	NA+/H+ dependent ATP synthase		ebh0033_b:1	"cpd00008:1,cpd00067_e:5,cpd00009:1,ebh0033_a:1"
+rbh0033_c	NA+/H+ dependent ATP synthase		ebh0033_b:1	"cpd00002:1,cpd00067:4,cpd00001:1,ebh0033_a:1"
+rbh0033_d	NA+/H+ dependent ATP synthase		"cpd00002:1,cpd00067:4,cpd00001:1,ebh0033_a:1"	ebh0033_b:1
+rbh0034_a	CO2 exchange		"cpd00011:1,ebh0034_a:1"	ebh0034_b:1
+rbh0034_b	CO2 exchange		ebh0034_b:1	"cpd00011:1,ebh0034_a:1"
+rbh0034_c	CO2 exchange		ebh0034_b:1	"cpd00011_e:1,ebh0034_a:1"
+rbh0034_d	CO2 exchange		"cpd00011_e:1,ebh0034_a:1"	ebh0034_b:1
+rbh0034_a	H2 exchange		"cpd11640:1,ebh0035_a:1"	ebh0035_b:1
+rbh0034_b	H2 exchange		ebh0035_b:1	"cpd11640:1,ebh0035_a:1"
+rbh0034_c	H2 exchange		ebh0035_b:1	"cpd11640_e:1,ebh0035_a:1"
+rbh0034_d	H2 exchange		"cpd11640_e:1,ebh0035_a:1"	ebh0035_b:1
+rbh0035_a	nitrite reductase (NADH)	EC 1.7.1.15	"cpd00075:1,cpd00004:3,cpd00067:5,ebh0036_a:1"	ebh0036_b:1
+rbh0035_b	nitrite reductase (NADH)	EC 1.7.1.15	ebh0036_b:1	"cpd00001:2,cpd00003:3,cpd00013:1,ebh0036_a:1"
+rbh0036_a	hydrogenase(NADP+)		"cpd11640:1,cpd00006:1,ebh0037_a:1"	ebh0037_b:1
+rbh0036_b	hydrogenase(NADP+)		ebh0037_b:1	"cpd00067:1,cpd00005:1,ebh0037_a:1"
+rbh0024_a	formate dehydrogenase (NADP+)	EC 1.17.1.10	"cpd11640:1,cpd00011:1,ebh0024_a:1"	ebh0024_b:1
+rbh0024_b	formate dehydrogenase (NADP+)	EC 1.17.1.10	ebh0024_b:1	"cpd11640:1,cpd00011:1,ebh0024_a:1"
+rbh0024_c	formate dehydrogenase (NADP+)	EC 1.17.1.10	ebh0024_b:1	"cpd00067:1,cpd00047:1,ebh0024_a:1"
+rbh0024_d	formate dehydrogenase (NADP+)	EC 1.17.1.10	"cpd00067:2,cpd00006:1,cpd00047:1,ebh0024_a:1"	ebh0024_b:1

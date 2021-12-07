@@ -1,0 +1,5 @@
+ID	Abbrev	n
+Cex	Cex	1
+Aex	Aex	1
+Cf	Cf	1
+Bf	Bf	1

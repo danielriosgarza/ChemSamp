@@ -1,0 +1,17 @@
+ID	Abrev.	n
+ebh0021	hydI	1
+ebh0037	hydII	1
+ebh0024	fdhA	1
+ebh0023	fdhF2	1
+ebh0025	fhs	1
+ebh0026	folD	1
+ebh0027	metF	1
+ebh0028	acsE	1
+ebh0029	codh	1
+ebh0030	pta	1
+ebh0031	ackA	1
+ebh0032	rnf	1
+ebh0033	atpF	1
+ebh0022	biomass	1
+ebh0034	co2ex	1
+ebh0035	h2ex	1

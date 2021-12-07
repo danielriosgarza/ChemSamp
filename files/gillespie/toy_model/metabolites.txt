@@ -1,0 +1,6 @@
+ID	Abbrev.	n	exchange
+A	A	0	0
+A_e	A_e	0	1
+B	B	0	0
+C	C	5	0
+C_e	C_e	5	1

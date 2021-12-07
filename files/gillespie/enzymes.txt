@@ -1,0 +1,38 @@
+id	name	proteins
+ebh0001	ptsI	3388:2
+ebh0002	ptsH	2641:1
+ebh0003	fruA	2585:2
+ebh0004	treB	2639:2
+ebh0005	treC	2640:1
+ebh0006	glk	2856:2|3289:2
+ebh0007	pgi	2435:1
+ebh0008	pfkA	2304:4|264:4|3291:4
+ebh0009	pfp	1794:1|3160:1
+ebh0010	fruK	2584:2
+ebh0011	fba	1435:8|3290:8|3476:2
+ebh0012	tpiA	2094:2
+ebh0013	gap	15:4
+ebh0014	pgk	2093:1
+ebh0015	gpmM	2100:1
+ebh0016	eno	2493:2
+ebh0017	pyk	3228:4
+ebh0018	ldh	"3254:1,3255:1|3252:1,3253:1|3628:1,2500:1|1354:1"
+ebh0019	por	3794:2
+ebh0020	ppsA	3161:2
+ebh0021	hyd	"3341:1,3339:1,3338:1"
+ebh0022	biomass	
+ebh0023	fdhF2	
+ebh0024	fdhA	
+ebh0025	fhs	
+ebh0026	folD	
+ebh0027	metF	
+ebh0028	acsE	
+ebh0029	codh	
+ebh0030	pta	
+ebh0031	ackA	
+ebh0032	rnf	
+ebh0033	atpF	
+ebh0034	co2ex	
+ebh0035	h2ex	
+ebh0036	nirB	1848:1
+ebh0037	hyd(nadp)	

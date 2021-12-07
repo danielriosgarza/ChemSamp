@@ -1,0 +1,57 @@
+ID	reactants	products	String	Rate
+rbh0035_a	"cpd11640_e:1, ebh0035_a:1"	ebh0035_b:1	(1) H2[out] + (1) H2ex[alone] --> (1) H2ex[conj]	0.1
+rbh0035_b	ebh0035_b:1	"cpd11640_e:1, ebh0035_a:1"	(1) H2ex[conj] --> (1) H2[out] + (1) H2ex[alone]	0.001
+rbh0035_c	ebh0035_b:1	"cpd11640:1, ebh0035_a:1"	(1) H2ex[conj] --> (1) H2 + (1) H2ex[alone]	0.1
+rbh0035_d	"cpd11640:1, ebh0035_a:1"	ebh0035_b:1	(1) H2 + (1) H2ex[alone] --> (1) H2ex[conj]	0.001
+rbh0034_a	"cpd00011_e:1, ebh0034_a:1"	ebh0034_b:1	(1) CO2[out]  + (1) CO2ex[alone] --> (1) CO2ex[conj]	0.1
+rbh0034_b	ebh0034_b:1	"cpd00011_e:1, ebh0034_a:1"	(1) CO2ex[conj] --> (1) CO2[out]  + (1) CO2ex[alone]	0.001
+rbh0034_c	ebh0034_b:1	"cpd00011:1, ebh0034_a:1"	(1) CO2ex[conj] --> Co2 + (1) CO2ex[alone]	0.1
+rbh0034_d	"cpd00011:1, ebh0034_a:1"	ebh0034_b:1	Co2 + (1) CO2ex[alone] --> (1) CO2ex[conj]	0.001
+rbh0021_a	"cpd11621:2, cpd00003:1,  cpd11640:2, ebh0021_a:1"	ebh0021_b:1	(2) Fd + (1) NAD+ + (2) H2 (1) hydI[alone] --> (1) hydI[conj]	0.1
+rbh0021_b	ebh0021_b:1	"cpd11621:2, cpd00003:1,  cpd11640:2, ebh0021_a:1"	(1) hydI[conj] --> (2) Fd + (1) NAD+ + (2) H2 (1) hydI[alone]	0.001
+rbh0021_c	ebh0021_b:1	"cpd11620:2, cpd00004:1, cpd00067:3, ebh0021_a:1"	(1) hydI[conj] --> (2) Fd? + (1) NADH + (3) H? + (1) hydI[alone]	0.1
+rbh0021_d	"cpd11620:2, cpd00004:1, cpd00067:3, ebh0021_a:1"	ebh0021_b:1	(2) Fd? + (1) NADH + (3) H? + (1) hydI[alone] --> (1) hydI[conj]	0.001
+rbh0032_a	"cpd11620:2, cpd00003:1, cpd00067:3, ebh0032_a:1"	ebh0032_b:1	(2) Fd- + (1) NAD+ + (3) H+ + (1) rnf[alone] --> (1) rnf[conj]	0.1
+rbh0032_b	ebh0032_b:1	"cpd11620:2, cpd00003:1, cpd00067:3, ebh0032_a:1"	(1) rnf[conj] --> (2) Fd- + (1) NAD+ + (3) H+ + (1) rnf[alone]	0.001
+rbh0032_c	ebh0032_b:1	"cpd11621:2, cpd00004:1, cpd00067_e:2, ebh0032_a:1"	(1) rnf[conj] --> (2) Fd + (1) NADH + (2) H+ [out] + (1) rnf[alone]	0.1
+rbh0032_d	"cpd11621:2, cpd00004:1, cpd00067_e:2, ebh0032_a:1"	ebh0032_b:1	(2) Fd + (1) NADH + (2) H+ [out] + (1) rnf[alone] --> (1) rnf[conj]	0.001
+rbh0033_a	"cpd00008:1, cpd00067_e:3, cpd00009:1, ebh0033_a:1"	ebh0033_b:1	(1) ADP + (5) H+[out] + (1) Pi + (1) atpF[alone] --> (1) atpF[conj]	0.1
+rbh0033_b	ebh0033_b:1	"cpd00008:1, cpd00067_e:3, cpd00009:1, ebh0033_a:1"	(1) atpF[conj] --> (1) ADP + (5) H+[out] + (1) Pi + (1) atpF[alone]	0.001
+rbh0033_c	ebh0033_b:1	"cpd00002:1, cpd00067:4, cpd00001:1, ebh0033_a:1"	(1) atpF[conj] --> (1) ATP + (4) H+ + (1) H2O + (1) atpF[alone]	0.1
+rbh0033_d	"cpd00002:1, cpd00067:4, cpd00001:1, ebh0033_a:1"	ebh0033_b:1	(1) ATP + (4) H+ + (1) H2O + (1) atpF[alone]  --> (1) atpF[conj]	0.001
+rbh0023_a	"cpd11640:1, cpd00011:1, ebh0023_a:1"	ebh0023_b:1	(1) H2 + (1) CO2 + (1) fdhF2[alone] --> (1) fdhF2[conj]	0.1
+rbh0023_b	ebh0023_b:1	"cpd11640:1, cpd00011:1, ebh0023_a:1"	(1) fdhF2[conj] --> (1) H2 + (1) CO2 + (1) fdhF2[alone]	0.1
+rbh0023_c	ebh0023_b:1	"cpd00067:1, cpd00047:1, ebh0023_a:1"	(1) fdhF2[conj] --> (1) H+ + (1) For + (1) fdhF2[alone]	0.1
+rbh0023_d	"cpd00067:1, cpd00047:1, ebh0023_a:1"	ebh0023_b:1	(1) H+ + (1) For + (1) fdhF2[alone] --> (1) fdhF2[conj]	0.1
+rbh0025_a	"cpd00087:1, cpd00002:1, cpd00047:1, ebh0025_a:1"	ebh0025_b:1	(1) THF + (1) ATP + (1) For + (1) fhs[alone] --> (1) fhs[conj]	0.1
+rbh0025_b	ebh0025_b:1	"cpd00087:1, cpd00002:1, cpd00047:1, ebh0025_a:1"	(1) fhs[conj] --> (1) THF + (1) ATP + (1) For + (1) fhs[alone]	0.001
+rbh0025_c	ebh0025_b:1	"cpd00201:1,cpd00008:1,cpd00009:1, ebh0025_a:1"	(1) fhs[conj] --> (1) 10 FTHF + (1) ADP + (1) Pi + (1) fhs[alone]	0.1
+rbh0025_d	"cpd00201:1,cpd00008:1,cpd00009:1, ebh0025_a:1"	ebh0025_b:1	(1) 10 FTHF + (1) ADP + (1) Pi + (1) fhs[alone] --> (1) fhs[conj]	0.001
+rbh0026_a	"cpd00201:1, cpd00067:1, cpd00004:1, ebh0026_a:1"	ebh0026_b:1	(1) 10 FTHF + (1) H+ + (1) NADPH + (1) folD[alone] --> (1) folD[conj]	0.1
+rbh0026_b	ebh0026_b:1	"cpd00201:1, cpd00067:1, cpd00004:1, ebh0026_a:1"	(1) folD[conj] --> (1) 10 FTHF + (1) H+ + (1) NADPH + (1) folD[alone]	0.001
+rbh0026_c	ebh0026_b:1	"cpd00347:1, cpd00001:1, cpd00003:1, ebh0026_a:1"	(1) folD[conj] --> (1) MeTHF + (1) H2O + (1) NADP+ + (1) folD[alone]	0.1
+rbh0026_d	"cpd00347:1, cpd00001:1, cpd00003:1, ebh0026_a:1"	ebh0026_b:1	(1) MeTHF + (1) H2O + (1) NADP+ + (1) folD[alone] --> (1) folD[conj]	0.001
+rbh0027_a	"cpd00347:1, cpd00004:1, cpd00067:1, ebh0027_a:1"	ebh0027_b:1	(1) MeTHF + (1) NADH + (1) H+ + (1) metF[alone] --> (1) metF[conj]	0.1
+rbh0027_b	ebh0027_b:1	"cpd00347:1, cpd00004:1, cpd00067:1, ebh0027_a:1"	(1) metF[conj] --> (1) MeTHF + (1) NADH + (1) H+ + (1) metF[alone]	0.001
+rbh0027_c	ebh0027_b:1	"cpd00345:1, cpd00003:1, ebh0027_a:1"	(1) metF[conj] --> (1) 5MeTHF + (1) NAD+ + (1) metF[alone]	0.1
+rbh0027_d	"cpd00345:1, cpd00003:1, ebh0027_a:1"	ebh0027_b:1	(1) 5MeTHF + (1) NAD+ + (1) metF[alone] --> (1) metF[conj]	0.001
+rbh0028_a	"cpd00345:1, cpd12810:1, cpd00067:1, ebh0028_a:1"	ebh0028_b:1	(1) 5MeTHF + (1) [corrinoid] + (1) H+ + (1) acsE[alone] --> (1) acsE[conj]	0.1
+rbh0028_b	ebh0028_b:1	"cpd00345:1, cpd12810:1, cpd00067:1, ebh0028_a:1"	(1) acsE[conj] --> (1) 5MeTHF + (1) [corrinoid] + (1) H+ + (1) acsE[alone]	0.001
+rbh0028_c	ebh0028_b:1	"cpd12809:1, cpd00087:1,  ebh0028_a:1"	(1) acsE[conj] --> (1) Me-[corrinoid] + (1) THF + (1) acsE[alone]	0.1
+rbh0028_d	"cpd12809:1, cpd00087:1,  ebh0028_a:1"	ebh0028_b:1	(1) Me-[corrinoid] + (1) THF + (1) acsE[alone] --> (1) acsE[conj]	0.001
+rbh0029_a	"cpd00011:1, cpd11620:2, cpd00067:1, cpd12809:1, cpd00010:1, ebh0029_a:1"	ebh0029_b:1	(1) CO2 + (2) Fd- + (1) H+ + (1) Me-[corrinoid] + (1) CoA + (1) codh[alone] --> (1) codh[conj]	0.1
+rbh0029_b	ebh0029_b:1	"cpd00011:1, cpd11620:1, cpd00067:1, cpd12809:1, cpd00010:1, ebh0029_a:1"	(1) codh[conj] --> (1) CO2 + (2) Fd- + (1) H+ + (1) Me-[corrinoid] + (1) CoA + (1) codh[alone]	0.001
+rbh0029_c	ebh0029_b:1	"cpd11621:2, cpd00001:1, cpd12810:1, cpd00022:1, ebh0029_a:1"	(1) codh[conj] --> (2) Fd + (1) H2O + (1) [corrinoid] + (1) AcCoA + (1) codh[alone]	0.1
+rbh0029_d	"cpd11621:2, cpd00001:1, cpd12810:1, cpd00022:1, ebh0029_a:1"	ebh0029_b:1	(2) Fd + (1) H2O + (1) [corrinoid] + (1) AcCoA + (1) codh[alone] --> (1) codh[conj]	0.001
+rbh0030_a	"cpd00022:1, cpd00009:1, ebh0030_a:1"	ebh0030_b:1	(1) AcCoa + (1) Pi --> (1) pta[conj]	0.1
+rbh0030_b	ebh0030_b:1	"cpd00022:1, cpd00009:1, ebh0030_a:1"	(1) pta[conj] --> (1) AcCoa + (1) Pi	0.001
+rbh0030_c	ebh0030_b:1	"cpd00010:1, cpd00196:1,  ebh0030_a:1"	(1) pta[conj] --> (1) CoA +  (1) ACTP	0.1
+rbh0030_d	"cpd00010:1, cpd00196:1,  ebh0030_a:1"	ebh0030_b:1	(1) CoA + (1) ACTP --> (1) pta[conj]	0.001
+rbh0031_a	"cpd00196:1, cpd00008:1, ebh0031_a:1"	ebh0031_b:1	(1) ACTP + (1) ADP + (1) ackA[alone] --> (1) ackA[conj]	0.1
+rbh0031_b	ebh0031_b:1	"cpd00196:1, cpd00008:1, ebh0031_a:1"	(1) ackA[conj] -->(1) ACTP + (1) ADP + (1) ackA[alone]	0.001
+rbh0031_c	ebh0031_b:1	"cpd00029:1, cpd00002:1, ebh0031_a:1"	(1) ackA[conj] --> (1) AC + (1) ATP + (1) ackA[alone]	0.1
+rbh0031_d	"cpd00029:1, cpd00002:1, ebh0031_a:1"	ebh0031_b:1	(1) AC + (1) ATP + (1) ackA[alone] --> (1) ackA[conj]	0.001
+rbh0022_a	"cpd00029:2, cpd00002:2, ebh0022_a:1"	ebh0022_b:1	(2) AC + (2) ATP --> (1) Biomass + (1) ADP + (1) Pi	0.1
+rbh0022_b	ebh0022_b:1	"cpd00029:2, cpd00002:2, ebh0022_a:1"	(2) AC + (2) ATP --> (1) Biomass + (1) ADP + (1) Pi	0.001
+rbh0022_c	ebh0022_b:1	"cbh0003:1, cpd00008:1, cpd00009:1, ebh0022_a:1"	(2) AC + (2) ATP --> (1) Biomass + (1) ADP + (1) Pi	0.1
+rbh0022_d	"cbh0003:1, ebh0022_a:1"	ebh0022_b:1	(2) AC + (2) ATP --> (1) Biomass + (1) ADP + (1) Pi	0.001
