@@ -1,0 +1,6 @@
+ID	Reactants	Products	Enzyme	forward_Rate	reversed_rate
+EX_cpd00020_e	cpd00020_e:1.0	cpd00020_c:1.0	bh1_EX_cpd00020_e	1	.1
+rxn05938	cpd00020_c:1.0,cpd11621_c:2.0,cpd00010_c:1.0	cpd00022_c:1.0,cpd00011_c:1.0,cpd11620_c:2.0,cpd00067_c:1.0	bh1_POR4	1	.1
+rxn47229	cpd00020_c:1.0,cpd11621_c:2.0,cpd00004_c:2.0	cpd00221_c:1.0,cpd11620_c:2.0,cpd00003_c:2.0	bh1_rxn47229	1	.1
+Rnf	cpd11620_c:2.0,cpd00003_c:1.0,cpd00067_c:2.0	cpd11621_c:2.0,cpd00004_c:1.0,cpd00067_e:1.0	bh1_Rnf	1	.1
+rxn10042	cpd00008_c:1.0,cpd00067_e:4.0,cpd00009_c:1.0	cpd00002_c:1.0,cpd15275_c:1.0,cpd00067_c:3.0	bh1_ATPS4	1	0

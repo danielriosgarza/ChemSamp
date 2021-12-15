@@ -15,14 +15,14 @@ import matplotlib.pyplot as plt
 dfs={}
 
 for itr in range(20):
-    M = Model('C:/Users/u0139894/Documents/GitHub/ChemSamp/files/pyruvate', 'test_')
+    M = Model('C:/Users/u0139894/Documents/GitHub/ChemSamp/files/full_model', 'test_')
     cpds = {i: Compound(M.mets[i][0], M.mets[i][1]) for i in M.mets}
     reacs = {i: Reaction(i, M.reacs[i]['rate'], {cpds[z]:M.reacs[i]['reactants'][z] for z in M.reacs[i]['reactants']}, {cpds[z]:M.reacs[i]['products'][z] for z in M.reacs[i]['products']}) for i in M.reacs}
     
     rsys = ReacSystem([reacs[i] for i in reacs])
     
     
-    rsys.simul(200)
+    rsys.simul(400)
     
     df = pd.DataFrame.from_dict({rsys.cpdIds[i]:rsys.series.T[i] for i in range(len(rsys.cpdIds))})
     df.index = rsys.time
@@ -31,7 +31,7 @@ for itr in range(20):
     #show()
     
     #df[["fru[out]", "tre[out]", "pyr", "pep", "f1p","fdp", "atp", "h", "dhap", "g3p", "nad", "13dpg"]].plot()
-    dfs[itr] = df[['CO2']]
+    dfs[itr] = df[['co2_c', 'h_c', 'lac_D_c', 'accoa_c', 'fdxrd_c', 'pyr_e', 'h_e', 'atp_c']]
 
 dd = dfs[0].copy()
 for i in range(1,20):

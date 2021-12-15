@@ -60,7 +60,7 @@ class Model:
         return rs
     
     def __makeReacDict(self, st):
-        d = {}
+        d= {}
         
         sc = st.replace('"','')
         
@@ -69,6 +69,8 @@ class Model:
         
         for i,v in enumerate(r):
             a = v.split(':')
+            
+            
             met = a[0].replace(' ','')
             if self.initial + met in self.mets:
                 met = self.initial + met
@@ -83,7 +85,7 @@ class Model:
             f.readline()
             for line in f:
                 a = line.strip().split('\t')
-                
+               
                 #conjugate
                 reaction = a[0] + '_a'
                 reactants = a[1] + ',' + a[3] + '_a:1'

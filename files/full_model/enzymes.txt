@@ -1,0 +1,6 @@
+ID	Abbrev	n
+bh1_EX_cpd00020_e	EX_cpd00020_e	1
+bh1_POR4	POR4	1
+bh1_rxn47229	rxn47229	1
+bh1_Rnf	Rnf	1
+bh1_ATPS4	ATPS4	1
