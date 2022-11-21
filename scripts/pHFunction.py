@@ -8,12 +8,11 @@ Created on Wed Dec  8 03:45:20 2021
 from pylab import *
 import numpy as np
 
-def gPh(pH, n1, n2, pHmin, pHmax):
+def gPh(pH, n1, n2):
+    pHmin, pHmax = 6.0, 10
     return (pH**n1)/(((pHmin**n1)-1) + (pH**n1)) * (pHmax**n2)/(((pHmax**n2)-1) + (pH**n2))
 
-n1=12
-n2 = 5
-pHmin = 5
-pHmax = 9
+n1=25
+n2 = 0
 
-gPh = np.array([gPh(i, n1, n2, pHmin, pHmax) for i in np.linspace(4,10,1000)])
+gPlot = np.array([gPh(i, n1, n2) for i in np.linspace(4,11,1000)])
